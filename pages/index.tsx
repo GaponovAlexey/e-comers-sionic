@@ -8,10 +8,10 @@ const Home: NextPage = () => {
       <Head>
         <title>Sionic</title>
         <link rel='icon' href='#!' />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet" />
       </Head>
       <Layout>
         <div className='h-screen'>
-          hiss
           <h1>vision</h1>
         </div>
       </Layout>
