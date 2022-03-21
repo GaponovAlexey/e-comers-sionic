@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Layout from '../components/Layout'
 
 const Home: NextPage = () => {
   return (
@@ -8,7 +9,12 @@ const Home: NextPage = () => {
         <title>Sionic</title>
         <link rel='icon' href='#!' />
       </Head>
-      <div className='text-3xl'>start</div>
+      <Layout>
+        <div className='h-screen'>
+          hiss
+          <h1>vision</h1>
+        </div>
+      </Layout>
     </div>
   )
 }
