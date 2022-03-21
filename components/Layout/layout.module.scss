@@ -1,6 +1,27 @@
 .head {
-  @apply flex ;
-}
-h1{
-  
+  @apply flex flex-wrap max-h-[82px] max-w-5xl bg-fuchsia-100 items-center;
+
+  > p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    padding-left: 20px;
+    background: url('/svg/location.svg') no-repeat;
+    margin-left: 27px;
+    cursor: pointer;
+    padding-right: 20px;
+  }
+  .pic {
+    @apply pl-5 max-w-[468px] border-2 py-2 bg-white;
+    > input {
+      @apply w-[374px];
+    }
+    > button {
+      background-color: #f0f4fb;
+    }
+  }
+
+  > h1 {
+    @apply font-bold text-4xl pl-[50px] py-[20px];
+  }
 }

@@ -3,8 +3,8 @@ const Header = () => {
   return (
     <div className={style.head}>
       <h1>React</h1>
-      <div className='location'>Александровск-Са...</div>
-      <div>
+      <p>Александровск-Са...</p>
+      <div className={style.pic}>
         <input type='text' placeholder='Поиск бренда, товара, категории...' />
         <button>searc</button>
       </div>
