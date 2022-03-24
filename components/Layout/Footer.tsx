@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={style.footer}>
       <h1>React</h1>
-      <div className={style.social} >
+      <div className={style.social}>
         <div>
           <p>Присоединяйтесь к нам</p>
           <Image src='/svg/Facebook.svg' width='28px' height='28px' alt='f' />
@@ -14,18 +14,20 @@ const Footer = () => {
         </div>
         <div>
           <p>Устанавливайте приложение</p>
-          <Image
-            src='/svg/Google.svg'
-            width='104px'
-            height='32px'
-            alt='Google'
-          />
-          <Image
-            src='/svg/AppStore.svg'
-            width='104px'
-            height='32px'
-            alt='AppStore'
-          />
+          <span>
+            <Image
+              src='/svg/Google.svg'
+              width='104px'
+              height='32px'
+              alt='Google'
+            />
+            <Image
+              src='/svg/AppStore.svg'
+              width='104px'
+              height='32px'
+              alt='AppStore'
+            />
+          </span>
         </div>
       </div>
     </div>

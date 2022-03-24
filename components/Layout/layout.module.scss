@@ -38,16 +38,22 @@
 }
 
 .footer {
-  @apply grid grid-cols-3  relative bg-[#F8F8F8] h-[216px] w-[1366];
+  @apply grid grid-cols-3 relative bg-[#F8F8F8] h-[216px] w-[1366];
   > h1 {
     @apply absolute left-[3.66%]
      right-[87.34%] top-[14.88%] bottom-[61.86%] font-bold 
      text-[40.8px] leading-[50px];
   }
-  > div {
-   @apply flex;
-    .social {
-      @apply grid;
+  .social {
+    @apply absolute top-0 right-0  flex;
+    > div {
+      @apply first:pr-[31px] last:pr-[125px] p-10;
+      > p {
+        @apply leading-[140%];
+      }
+      > span {
+        @apply last:ml-5;
+      }
     }
   }
 }
