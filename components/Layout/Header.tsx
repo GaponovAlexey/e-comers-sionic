@@ -6,7 +6,7 @@ const Header = () => {
       <p>Александровск-Са...</p>
       <div className={style.pic}>
         <input type='text' placeholder='Поиск бренда, товара, категории...' />
-        <button>searc</button>
+        <button></button>
       </div>
       <div>basket</div>
       <div>ava</div>
