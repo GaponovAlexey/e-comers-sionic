@@ -8,9 +8,15 @@ const Footer = () => {
       <div className={style.social}>
         <div>
           <p>Присоединяйтесь к нам</p>
-          <Image src='/svg/Facebook.svg' width='28px' height='28px' alt='f' />
-          <Image src='/svg/Vk.svg' width='28px' height='28px' alt='VK' />
-          <Image src='/svg/Inst.svg' width='28px' height='28px' alt='Inst' />
+          <span>
+            <Image src='/svg/Facebook.svg' width='28px' height='28px' alt='f' />
+          </span>
+          <span>
+            <Image src='/svg/Vk.svg' width='28px' height='28px' alt='VK' />
+          </span>
+          <span>
+            <Image src='/svg/Inst.svg' width='28px' height='28px' alt='Inst' />
+          </span>
         </div>
         <div>
           <p>Устанавливайте приложение</p>
@@ -21,6 +27,8 @@ const Footer = () => {
               height='32px'
               alt='Google'
             />
+          </span>
+          <span>
             <Image
               src='/svg/AppStore.svg'
               width='104px'

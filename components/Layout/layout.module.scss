@@ -4,14 +4,8 @@
     @apply font-bold text-4xl pl-[50px] py-[20px];
   }
   > p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 140%;
-    padding-left: 20px;
+    @apply text-sm leading-[140%] pl-5 pr-5 ml-7;
     background: url('/svg/location.svg') no-repeat;
-    margin-left: 27px;
-    cursor: pointer;
-    padding-right: 20px;
   }
   .basket {
     @apply p-7 ml-5;
@@ -24,14 +18,10 @@
   .pic {
     @apply flex relative rounded-full pl-5 w-[468px] border-2 py-3 bg-white;
     > input {
-      @apply w-[374px] border-0;
+      @apply w-[374px] border-0 outline-none;
     }
     > button {
-      @apply rounded-full absolute;
-      width: 94px;
-      height: 42px;
-      right: 4px;
-      top: 3px;
+      @apply rounded-full absolute w-[94px] h-[42px] right-1 top-[3px];
       background: url('/svg/search.svg') no-repeat center #f0f4fb;
     }
   }
@@ -47,12 +37,12 @@
   .social {
     @apply absolute top-0 right-0  flex;
     > div {
-      @apply first:pr-[31px] last:pr-[125px] p-10;
+      @apply first:pr-[31px] last:pr-[125px] pt-10;
       > p {
-        @apply leading-[140%];
+        @apply mb-[10px] leading-[140%] text-[#2D2D2F];
       }
       > span {
-        @apply last:ml-5;
+        @apply pr-4;
       }
     }
   }
