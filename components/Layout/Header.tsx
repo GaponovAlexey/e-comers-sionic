@@ -8,8 +8,8 @@ const Header = () => {
         <input type='text' placeholder='Поиск бренда, товара, категории...' />
         <button></button>
       </div>
-      <div>basket</div>
-      <div>ava</div>
+      <div className={style.basket}></div>
+      <div className={style.ava}></div>
     </div>
   )
 }

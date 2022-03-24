@@ -1,6 +1,8 @@
 .head {
-  @apply flex flex-wrap max-h-[82px] max-w-5xl bg-fuchsia-100 items-center;
-
+  @apply flex  max-h-[82px] max-w-5xl items-center;
+  > h1 {
+    @apply font-bold text-4xl pl-[50px] py-[20px];
+  }
   > p {
     font-weight: 400;
     font-size: 14px;
@@ -10,6 +12,14 @@
     margin-left: 27px;
     cursor: pointer;
     padding-right: 20px;
+  }
+  .basket {
+    @apply p-7 ml-5;
+    background: transparent url('/svg/shop.svg') no-repeat center;
+  }
+  .ava {
+    @apply p-7 ml-5 rounded-full;
+    background: transparent url('/img/ime.png') no-repeat center;
   }
   .pic {
     @apply flex relative rounded-full   pl-5 w-[468px] border-2 py-3 bg-white;
@@ -25,8 +35,8 @@
       background: url('/svg/search.svg') no-repeat center #f0f4fb;
     }
   }
+}
 
-  > h1 {
-    @apply font-bold text-4xl pl-[50px] py-[20px];
-  }
+.footer {
+  
 }
