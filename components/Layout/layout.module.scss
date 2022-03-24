@@ -22,9 +22,9 @@
     background: transparent url('/img/ime.png') no-repeat center;
   }
   .pic {
-    @apply flex relative rounded-full   pl-5 w-[468px] border-2 py-3 bg-white;
+    @apply flex relative rounded-full pl-5 w-[468px] border-2 py-3 bg-white;
     > input {
-      @apply w-[374px]  border-0;
+      @apply w-[374px] border-0;
     }
     > button {
       @apply rounded-full absolute;
@@ -38,5 +38,16 @@
 }
 
 .footer {
-  
+  @apply grid grid-cols-3  relative bg-[#F8F8F8] h-[216px] w-[1366];
+  > h1 {
+    @apply absolute left-[3.66%]
+     right-[87.34%] top-[14.88%] bottom-[61.86%] font-bold 
+     text-[40.8px] leading-[50px];
+  }
+  > div {
+   @apply flex;
+    .social {
+      @apply grid;
+    }
+  }
 }
