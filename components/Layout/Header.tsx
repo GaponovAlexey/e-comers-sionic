@@ -7,8 +7,9 @@ const Header = () => {
       <div className={style.pic}>
         <input type='text' placeholder='Поиск бренда, товара, категории...' />
         <button></button>
+        
       </div>
-      
+
       <div className={style.basket}></div>
       <div className={style.ava}></div>
     </div>
